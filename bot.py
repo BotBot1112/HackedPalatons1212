@@ -42,7 +42,7 @@ def process_number(message):
     user_imports2[user_id] = message.text
 
     # Путь к файлу
-    путь_к_файлу = 'answers3.txt'
+    путь_к_файлу = '/root/HackedPalatons1212/answers3.txt'
 
     # Искомое число
     искомое_число = message.text
@@ -85,7 +85,7 @@ def search_text(message):
 
         # Открываем файл для чтения и выполняем поиск
         try:
-            with open('ege3.txt', 'r', encoding='utf-8') as file:
+            with open('/root/HackedPalatons1212/ege3.txt', 'r', encoding='utf-8') as file:
                 found_mertvye_dushi = False
                 for line in file:
                     if imported_text in line:
